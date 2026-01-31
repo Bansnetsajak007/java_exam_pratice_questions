@@ -16,6 +16,7 @@ between 21 and 30 in 3 secs simultaneousty.
 // but with the help of sleep method we can pause the execution of a thread for a specified time 
 
 class NumberThread extends Thread {
+    //giving custom implementation the run method to define the task for the thread
     public void run() {
         try {
             // Even numbers between 1 and 10
