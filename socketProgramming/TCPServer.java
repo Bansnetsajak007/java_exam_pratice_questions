@@ -17,7 +17,7 @@ public class TCPServer {
             //step 3: Create input and output streams
             BufferedReader in = new BufferedReader(
                 new InputStreamReader(socket.getInputStream()));
-            PrintWriter out = new PrintWriter(socket.getOutputStream(), true    );
+            PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
             
             //step 4: Read data from client and send response
             String clientMessage = in.readLine();

@@ -1,5 +1,7 @@
 // Client code 
 
+// client calls the remote method to calculate factorial
+
 import java.rmi.*;
 import java.rmi.registry.*;
 import java.util.Scanner;
